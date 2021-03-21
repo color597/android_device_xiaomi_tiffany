@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tiffany.mk
+    $(LOCAL_DIR)/exthm_tiffany.mk
+    
+COMMON_LUNCH_CHOICES := \
+    exthm_tiffany-user \
+    exthm_tiffany-userdebug \
+    exthm_tiffany-eng
